@@ -26,18 +26,16 @@ function create(){
 	platforms = game.add.physicsGroup();
 	platforms.enableBody = true;
 
-	var ground = platforms.create(0, 560, 'ground');
+	var ground = platforms.create(0, 550, 'ground');
 	//multiplies the height & width of the ground image by 2
 	ground.scale.setTo(2, 2);
 	//set the ground to stay still
 	ground.body.immoveable = true;
 
 	var ledge1 = platforms.create(350, 400, 'ground');
-	ground.scale.setTo(0.7,0.7);
 	ledge1.body.immoveable = true;
 
     var ledge2 = platforms.create(-70, 250, 'ground');
-    gound.scale.setTo(0.7,0.7);
 	ledge2.body.immoveable = true;
 
 	var style = {font: "bold 32px Arial", fill: "white"};
