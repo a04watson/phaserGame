@@ -28,7 +28,7 @@ function create(){
 
 	var ground = platforms.create(0, 560, 'ground');
 	//multiplies the height & width of the ground image by 2
-	ground.scale.setTo(1.7, 1.7);
+	ground.scale.setTo(2, 2);
 	//set the ground to stay still
 	ground.body.immoveable = true;
 
